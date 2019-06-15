@@ -95,7 +95,7 @@ public class Mazo {
 
 	}
 
-	public int valorCarta() {
+	public int valorMazo() {
 
 		int total = 0;
 		int as = 0;
