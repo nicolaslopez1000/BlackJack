@@ -14,14 +14,6 @@ public class Jugador {
 
 	public Mazo mazoJugador;
 
-	public Mazo getMazoJugador() {
-		return mazoJugador;
-	}
-
-	public void setMazoJugador(Mazo mazoJugador) {
-		this.mazoJugador = mazoJugador;
-	}
-
 	public String getNombreJugador() {
 		return nombreJugador;
 	}

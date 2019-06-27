@@ -179,4 +179,15 @@ public class Mazo {
 		return this.colCartas.size();
 	}
 
+	public void moverAlMazo(Mazo destino) {
+		// put cards in moveTo deck
+		int size = this.tamañoMazo();
+		for (int i = 0; i < size; i++) {
+			destino.agregarCarta(this.getCarta(i));
+		}
+		// empty out the deck
+		for (int i = 0; i < size; i++) {
+			this.deleteCarta(0);
+		}
+	}
 }
